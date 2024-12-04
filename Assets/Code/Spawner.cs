@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Threading.Tasks;
 using UnityEngine;
@@ -44,7 +45,7 @@ namespace Tetris.Spawner
 
                 Vector3 direction = Quaternion.AngleAxis(yDeviation, Vector3.right) * (Quaternion.AngleAxis(xDeviation, Vector3.up) * shootingPoint.forward);
 
-               //Launch(direction * forceModifier);
+                //Launch(direction * forceModifier);
             }
 
 
