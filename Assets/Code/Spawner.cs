@@ -52,11 +52,7 @@ namespace Tetris.Spawner
             ResetSpawner();
         }
 
-        private void Launch(Vector3 vector3)
-        {
-            throw new System.NotImplementedException();
-        }
-
+        
         void ResetSpawner()
         {
             _currentTime = Random.Range(minShootTime, maxShootTime);

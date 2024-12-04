@@ -241,19 +241,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 916102b38549f504f9eefcf7cfbdcce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnerPrefabs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  minShootTime: 1
-  maxShootTime: 4
+  spawnerPrefabs: []
+  minShootTime: 0
+  maxShootTime: 0
   minForceModifier: 0
   maxForceModifier: 0
-  deviationDegrees: 90
-  minProjectiles: 1
-  maxProjectiles: 3
-  shootingPoint: {fileID: 286841923}
+  deviationDegrees: 0
+  minProjectiles: 0
+  maxProjectiles: 0
+  shootingPoint: {fileID: 0}
 --- !u!1 &286841922
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,9 +291,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 286841922}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70f3a4b82a6c4c642a9d780f42c34654, type: 3}
+  m_Script: {fileID: 11500000, guid: 916102b38549f504f9eefcf7cfbdcce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnerPrefabs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  minShootTime: 0
+  maxShootTime: 0
+  minForceModifier: 0
+  maxForceModifier: 0
+  deviationDegrees: 0
+  minProjectiles: 0
+  maxProjectiles: 0
+  shootingPoint: {fileID: 0}
 --- !u!1 &399576273
 GameObject:
   m_ObjectHideFlags: 0
