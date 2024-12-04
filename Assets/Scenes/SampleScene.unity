@@ -249,7 +249,7 @@ MonoBehaviour:
   deviationDegrees: 0
   minProjectiles: 0
   maxProjectiles: 0
-  shootingPoint: {fileID: 0}
+  shootingPoint: {fileID: 286841923}
 --- !u!1 &286841922
 GameObject:
   m_ObjectHideFlags: 0
