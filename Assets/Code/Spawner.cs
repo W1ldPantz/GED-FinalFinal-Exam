@@ -2,7 +2,7 @@ using System.Collections;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Optimization.Baseline
+namespace Tetris.Spawner
 {
     public class Spawner : MonoBehaviour
     {
@@ -44,11 +44,16 @@ namespace Optimization.Baseline
 
                 Vector3 direction = Quaternion.AngleAxis(yDeviation, Vector3.right) * (Quaternion.AngleAxis(xDeviation, Vector3.up) * shootingPoint.forward);
 
-                //s.Launch(direction * forceModifier);
+               //Launch(direction * forceModifier);
             }
 
 
             ResetSpawner();
+        }
+
+        private void Launch(Vector3 vector3)
+        {
+            throw new System.NotImplementedException();
         }
 
         void ResetSpawner()
